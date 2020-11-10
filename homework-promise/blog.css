@@ -1,0 +1,70 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 160px;
+    position: relative
+}
+main {
+    flex: 1;
+    margin: 0px 20px 0 20px;
+}
+footer {
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+}
+
+/* Phông chữ, màu chữ của hàng đầu tiên */
+.text-body {
+    color: white !important;
+    text-decoration: none !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important ;
+    top: 0px !important;
+    font-size: 20px;
+}
+.mainPage {
+    position: absolute;
+}
+.right {
+    margin-right: 20px;
+}
+
+/* Thiết kế tiêu đề trang web */
+.title {
+position: absolute;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important ;
+color: white !important;
+font-size: 4rem;
+display: flex;
+width: 100%;
+text-align: center;
+display : inline-block;
+top: 40px;
+}
+
+/* Thiết kế ảnh nền của header */
+.img-fluid {
+    height: 160px;
+    width: 100%;
+}
+
+/* Thiết kế nội dung phần main */
+.titleEachContent {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: ivory;
+}
+
+/* Phần footer */
+.fa {
+    font-size:56px !important; 
+    color: black !important;
+    margin: 5px;
+    text-decoration: none !important;
+}
